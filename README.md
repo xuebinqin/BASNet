@@ -1,9 +1,10 @@
 # BASNet
-Code for paper '[BASNet: Boundary Aware Salient Object Detection](https://webdocs.cs.ualberta.ca/~xuebin/BASNet.pdf)', [Xuebin Qin](https://webdocs.cs.ualberta.ca/~xuebin/), Zichen Zhang, Chenyang Huang, Chao Gao, Masood Dehghan and Martin Jagersand.
+Code for paper '[*BASNet: Boundary Aware Salient Object Detection*](https://webdocs.cs.ualberta.ca/~xuebin/BASNet.pdf)', [Xuebin Qin](https://webdocs.cs.ualberta.ca/~xuebin/), Zichen Zhang, Chenyang Huang, Chao Gao, Masood Dehghan and Martin Jagersand.  
+
+__Contact__: xuebin[at]ualberta[dot]ca
 
 ## Required libraries
 
-OS Ubuntu 18.04.2 LTS  
 Python 3.6  
 numpy 1.15.2  
 scikit-image 0.14.0  
