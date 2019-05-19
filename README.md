@@ -1,5 +1,5 @@
 # BASNet
-Code for paper '[*BASNet: Boundary Aware Salient Object Detection*](https://webdocs.cs.ualberta.ca/~xuebin/BASNet.pdf)', [Xuebin Qin](https://webdocs.cs.ualberta.ca/~xuebin/), Zichen Zhang, Chenyang Huang, Chao Gao, Masood Dehghan and Martin Jagersand.  
+Code for paper '[*BASNet: Boundary Aware Salient Object Detection*](https://webdocs.cs.ualberta.ca/~xuebin/BASNet.pdf)', [Xuebin Qin](https://webdocs.cs.ualberta.ca/~xuebin/), Zichen Zhang, Chenyang Huang, Chao Gao, Masood Dehghan and Martin Jagersand. [SUPP](https://webdocs.cs.ualberta.ca/~xuebin/BASNet-supp.pdf)  
 
 __Contact__: xuebin[at]ualberta[dot]ca
 
