@@ -15,10 +15,10 @@ Code for paper '[BASNet: Boundary Aware Salient Object Detection](https://webdoc
 ![Qualitative Comparison](figures/qual.png)
 
 ## Citation
-'''
+```
 @InProceedings{Qin_2019,
   author = {Qin, Xuebin and Zhang, Zichen and Huang, Chenyang and Gao, Chao and Dehghan, Masood and Jagersand, Martin},
   title = {BASNet: Boundary Aware Salient Object Detection},
   year = {2019}
 }
-'''
+```
