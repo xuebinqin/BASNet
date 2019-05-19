@@ -6,8 +6,6 @@ import torch.nn as nn
 from torchvision import models
 import torch.nn.functional as F
 
-# python 3 confusing imports :(
-# from .unet_parts import *
 from .resnet_model import *
 
 
