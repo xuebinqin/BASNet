@@ -3,4 +3,5 @@ Code for paper '[BASNet: Boundary Aware Salient Object Detection](https://webdoc
 
 ## Quantitative Comparison
 
-<img src="figures/architecture.png" width="400" alt="architecture"/>
+![BASNet architecture](figures/architecture.png)
+<!-- <img src="figures/architecture.png" width="400" alt="architecture"/> -->
