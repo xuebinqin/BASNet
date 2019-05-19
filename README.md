@@ -3,16 +3,16 @@ Code for paper '[BASNet: Boundary Aware Salient Object Detection](https://webdoc
 
 ## Required libraries
 
-OS Ubuntu 18.04.2 LTS
-Python 3.6
-numpy 1.15.2
-scikit-image 0.14.0
-PIL 5.2.0
-PyTorch 0.4.0
-torchvision 0.2.1
-glob
+OS Ubuntu 18.04.2 LTS  
+Python 3.6  
+numpy 1.15.2  
+scikit-image 0.14.0  
+PIL 5.2.0  
+PyTorch 0.4.0  
+torchvision 0.2.1  
+glob  
 
-The SSIM loss is adapted from [pytorch-ssim](https://github.com/Po-Hsun-Su/pytorch-ssim/blob/master/pytorch_ssim/__init__.py).
+The SSIM loss is adapted from [pytorch-ssim](https://github.com/Po-Hsun-Su/pytorch-ssim/blob/master/pytorch_ssim/__init__.py).  
 
 ## Usage
 1. Clone this repo
@@ -21,18 +21,15 @@ git clone https://github.com/NathanUA/BASNet.git
 ```
 2. Download the pre-trained model [basnet.pth](https://drive.google.com/file/d/1qeKYOTLIOeSJGqIhFJOEch48tPyzrsZx/view?usp=sharing) and put it into the dirctory 'saved_models/basnet_bsi/'
 
-3.  cd to 'BASNet'
-run
+3.  Cd to 'BASNet', run the training and inference process by command:
 ```
 python basnet_test.py
 ```
-to test the inference
-or
-run
+and
 ```
 python basnet_train.py
 ```
-to test the train.
+respectively.
 
  We also provid the predicted [saliency maps](https://drive.google.com/file/d/1K9y9HpupXT0RJ4U4OizJ_Uk5byUyCupK/view?usp=sharing) including SOD, ECSSD, DUT-OMRON, PASCAL-S, HKU-IS and DUTS-TE.
 
