@@ -1,6 +1,3 @@
-#!/usr/bin/python
-# full assembly of the sub-parts to form the complete net
-
 import torch
 import torch.nn as nn
 from torchvision import models
@@ -117,32 +114,32 @@ class BASNet(nn.Module):
         self.inrelu = nn.ReLU(inplace=True)
 
         #stage 1
-        self.encoder1 = resnet.layer1 #224
+        self.encoder1 = resnet.layer1 #256
         #stage 2
-        self.encoder2 = resnet.layer2 #112
+        self.encoder2 = resnet.layer2 #128
         #stage 3
-        self.encoder3 = resnet.layer3 #56
+        self.encoder3 = resnet.layer3 #64
         #stage 4
-        self.encoder4 = resnet.layer4 #28
+        self.encoder4 = resnet.layer4 #32
 
         self.pool4 = nn.MaxPool2d(2,2,ceil_mode=True)
 
         #stage 5
         self.resb5_1 = BasicBlock(512,512)
         self.resb5_2 = BasicBlock(512,512)
-        self.resb5_3 = BasicBlock(512,512) #14
+        self.resb5_3 = BasicBlock(512,512) #16
 
         self.pool5 = nn.MaxPool2d(2,2,ceil_mode=True)
 
         #stage 6
         self.resb6_1 = BasicBlock(512,512)
         self.resb6_2 = BasicBlock(512,512)
-        self.resb6_3 = BasicBlock(512,512) #7
+        self.resb6_3 = BasicBlock(512,512) #8
 
         ## -------------Bridge--------------
 
         #stage Bridge
-        self.convbg_1 = nn.Conv2d(512,512,3,dilation=2, padding=2) # 7
+        self.convbg_1 = nn.Conv2d(512,512,3,dilation=2, padding=2) # 8
         self.bnbg_1 = nn.BatchNorm2d(512)
         self.relubg_1 = nn.ReLU(inplace=True)
         self.convbg_m = nn.Conv2d(512,512,3,dilation=2, padding=2)
