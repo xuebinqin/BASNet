@@ -22,8 +22,8 @@ git clone https://github.com/NathanUA/BASNet.git
 ```
 2. Download the pre-trained model [basnet.pth](https://drive.google.com/file/d/1qeKYOTLIOeSJGqIhFJOEch48tPyzrsZx/view?usp=sharing) and put it into the dirctory 'saved_models/basnet_bsi/'
 
-3.  Cd to the directory 'BASNet', run the training and inference process by command: ```python basnet_test.py```
-and ```python basnet_train.py``` respectively.  
+3.  Cd to the directory 'BASNet', run the training or inference process by command: ```python basnet_train.py```
+or ```python basnet_test.py``` respectively.  
 
  We also provide the predicted [saliency maps](https://drive.google.com/file/d/1K9y9HpupXT0RJ4U4OizJ_Uk5byUyCupK/view?usp=sharing) for datasets SOD, ECSSD, DUT-OMRON, PASCAL-S, HKU-IS and DUTS-TE.
 
