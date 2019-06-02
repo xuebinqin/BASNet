@@ -75,7 +75,7 @@ model_dir = "./saved_models/basnet_bsi/"
 
 
 epoch_num = 100000
-batch_size_train = 16
+batch_size_train = 8 
 batch_size_val = 1
 train_num = 0
 val_num = 0
