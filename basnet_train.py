@@ -166,7 +166,7 @@ for epoch in range(0, epoch_num):
         print("[epoch: %3d/%3d, batch: %5d/%5d, ite: %d] train loss: %3f, tar: %3f " % (
         epoch + 1, epoch_num, (i + 1) * batch_size_train, train_num, ite_num, running_loss / ite_num4val, running_tar_loss / ite_num4val))
 
-        if ite_num % 3 == 0:  # save model every 2500 iterations
+        if ite_num % 2000 == 0:  # save model every 2000 iterations
 
             torch.save(net.state_dict(), model_dir + "basnet_bsi_itr_%d_train_%3f_tar_%3f.pth" % (ite_num, running_loss / ite_num4val, running_tar_loss / ite_num4val))
             running_loss = 0.0
