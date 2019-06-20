@@ -42,10 +42,11 @@ or ```python basnet_test.py``` respectively.
 
 ## Citation
 ```
-@InProceedings{Qin2019BASNet,
-  author = {Qin, Xuebin and Zhang, Zichen and Huang, Chenyang and Gao, Chao and Dehghan, Masood and Jagersand, Martin},
-  title = {BASNet: Boundary Aware Salient Object Detection},
-  booktitle={IEEE CVPR},
-  year = {2019}
+@InProceedings{Qin_2019_CVPR,
+author = {Qin, Xuebin and Zhang, Zichen and Huang, Chenyang and Gao, Chao and Dehghan, Masood and Jagersand, Martin},
+title = {BASNet: Boundary-Aware Salient Object Detection},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2019}
 }
 ```
