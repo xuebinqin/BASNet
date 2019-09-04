@@ -20,7 +20,7 @@ The SSIM loss is adapted from [pytorch-ssim](https://github.com/Po-Hsun-Su/pytor
 ```
 git clone https://github.com/NathanUA/BASNet.git
 ```
-2. Download the pre-trained model [basnet.pth](https://drive.google.com/file/d/1qeKYOTLIOeSJGqIhFJOEch48tPyzrsZx/view?usp=sharing) and put it into the dirctory 'saved_models/basnet_bsi/'
+2. Download the pre-trained model [basnet.pth](https://drive.google.com/open?id=1s52ek_4YTDRt_EOkx1FS53u-vJa0c4nu) and put it into the dirctory 'saved_models/basnet_bsi/'
 
 3.  Cd to the directory 'BASNet', run the training or inference process by command: ```python basnet_train.py```
 or ```python basnet_test.py``` respectively.  

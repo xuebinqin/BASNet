@@ -114,32 +114,32 @@ class BASNet(nn.Module):
         self.inrelu = nn.ReLU(inplace=True)
 
         #stage 1
-        self.encoder1 = resnet.layer1 #256
+        self.encoder1 = resnet.layer1 #224
         #stage 2
-        self.encoder2 = resnet.layer2 #128
+        self.encoder2 = resnet.layer2 #112
         #stage 3
-        self.encoder3 = resnet.layer3 #64
+        self.encoder3 = resnet.layer3 #56
         #stage 4
-        self.encoder4 = resnet.layer4 #32
+        self.encoder4 = resnet.layer4 #28
 
         self.pool4 = nn.MaxPool2d(2,2,ceil_mode=True)
 
         #stage 5
         self.resb5_1 = BasicBlock(512,512)
         self.resb5_2 = BasicBlock(512,512)
-        self.resb5_3 = BasicBlock(512,512) #16
+        self.resb5_3 = BasicBlock(512,512) #14
 
         self.pool5 = nn.MaxPool2d(2,2,ceil_mode=True)
 
         #stage 6
         self.resb6_1 = BasicBlock(512,512)
         self.resb6_2 = BasicBlock(512,512)
-        self.resb6_3 = BasicBlock(512,512) #8
+        self.resb6_3 = BasicBlock(512,512) #7
 
         ## -------------Bridge--------------
 
         #stage Bridge
-        self.convbg_1 = nn.Conv2d(512,512,3,dilation=2, padding=2) # 8
+        self.convbg_1 = nn.Conv2d(512,512,3,dilation=2, padding=2) # 7
         self.bnbg_1 = nn.BatchNorm2d(512)
         self.relubg_1 = nn.ReLU(inplace=True)
         self.convbg_m = nn.Conv2d(512,512,3,dilation=2, padding=2)
@@ -285,7 +285,7 @@ class BASNet(nn.Module):
 
         hx = self.relu6d_1(self.bn6d_1(self.conv6d_1(torch.cat((hbg,h6),1))))
         hx = self.relu6d_m(self.bn6d_m(self.conv6d_m(hx)))
-        hd6 = self.relu6d_2(self.bn5d_2(self.conv6d_2(hx)))
+        hd6 = self.relu6d_2(self.bn6d_2(self.conv6d_2(hx)))
 
         hx = self.upscore2(hd6) # 8 -> 16
 
