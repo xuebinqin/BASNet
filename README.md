@@ -3,7 +3,7 @@ Code for CVPR 2019 paper '[*BASNet: Boundary-Aware Salient Object Detection*](ht
 
 __Contact__: xuebin[at]ualberta[dot]ca
 
-## NEWS! The evaluation code is released now!
+## NEWS! The evaluation code is released now （2019-Dec-13)!
 [Evaluation Code](https://github.com/NathanUA/Binary-Segmentation-Evaluation-Tool)
 
 ## Required libraries
