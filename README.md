@@ -28,7 +28,7 @@ git clone https://github.com/NathanUA/BASNet.git
 3.  Cd to the directory 'BASNet', run the training or inference process by command: ```python basnet_train.py```
 or ```python basnet_test.py``` respectively.  
 
- We also provide the predicted [saliency maps](https://drive.google.com/file/d/1K9y9HpupXT0RJ4U4OizJ_Uk5byUyCupK/view?usp=sharing) [Baidu](https://pan.baidu.com/s/1FJKVO_9YrP7Iaz7WT6Xdhg) for datasets SOD, ECSSD, DUT-OMRON, PASCAL-S, HKU-IS and DUTS-TE.
+ We also provide the predicted [saliency maps](https://drive.google.com/file/d/1K9y9HpupXT0RJ4U4OizJ_Uk5byUyCupK/view?usp=sharing) ([Baidu](https://pan.baidu.com/s/1FJKVO_9YrP7Iaz7WT6Xdhg)) for datasets SOD, ECSSD, DUT-OMRON, PASCAL-S, HKU-IS and DUTS-TE.
 
 ## Architecture
 
