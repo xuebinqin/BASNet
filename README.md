@@ -3,10 +3,10 @@ Code for CVPR 2019 paper '[*BASNet: Boundary-Aware Salient Object Detection*](ht
 
 __Contact__: xuebin[at]ualberta[dot]ca
 
-## NEWS! Our new Salient Object Detection model (U^2-Net), which is just accepted by Pattern Recognition, is available now (2020-May-09)!
+## (2020-May-09) NEWS! Our new Salient Object Detection model (U^2-Net), which is just accepted by Pattern Recognition, is available now!
 [U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection](https://github.com/NathanUA/U-2-Net)
 
-## The evaluation code is released now （2019-Dec-13)!
+## Evaluation code
 [Evaluation Code](https://github.com/NathanUA/Binary-Segmentation-Evaluation-Tool)
 
 ## Required libraries
