@@ -6,7 +6,7 @@ __Contact__: xuebin[at]ualberta[dot]ca
 ## (2020-May-09) NEWS! Our new Salient Object Detection model (U^2-Net), which is just accepted by Pattern Recognition, is available now!
 [U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection](https://github.com/NathanUA/U-2-Net)
 
-## Evaluation code
+## Evaluation
 [Evaluation Code](https://github.com/NathanUA/Binary-Segmentation-Evaluation-Tool)
 
 ## Required libraries
