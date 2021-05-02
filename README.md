@@ -4,13 +4,16 @@
 Mobile and Web Applications](https://arxiv.org/pdf/2101.04704.pdf)', Xuebin Qin, Deng-Ping Fan, Chenyang Huang, Cyril Diagne, Zichen Zhang,
 Adria Cabeza Sant’Anna, Albert Suarez, Martin Jagersand, and Ling Shao.
 
-## Predicted maps of SOD, SOC and COD datasets.
-
+## SOD Qualitative Comparison
 ![SOD Qualitative Comparison](figures/sod_qual_comp.PNG)
 
+## SOC Qualitative Comparison
 ![SOC Qualitative Comparison](figures/soc_qual_comp.PNG)
 
+## COD Qualitative Comparison
 ![COD Qualitative Comparison](figures/cod_qual_comp.PNG)
+
+## Predicted maps of SOD, SOC and COD datasets.
 
 [SOD Results will come soon!]() \
 [SOC Results will come soon!]() \
