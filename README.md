@@ -6,6 +6,12 @@ Adria Cabeza Sant’Anna, Albert Suarez, Martin Jagersand, and Ling Shao.
 
 ## Predicted maps of SOD, SOC and COD datasets.
 
+![SOD Qualitative Comparison](figures/sod_qual_comp.PNG)
+
+![SOC Qualitative Comparison](figures/soc_qual_comp.PNG)
+
+![COD Qualitative Comparison](figures/cod_qual_comp.PNG)
+
 [SOD Results will come soon!]() \
 [SOC Results will come soon!]() \
 [COD Results](https://drive.google.com/file/d/12jijUPpdOe7k2O1YcLbkJHyXCJb3MRMN/view?usp=sharing)
