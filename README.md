@@ -25,13 +25,13 @@ Adria Cabeza Sant’Anna, Albert Suarez, Martin Jagersand, and Ling Shao.
 }
 ```
 
-## SOD Qualitative Comparison
+## Salient Object Detection(SOD) Qualitative Comparison
 ![SOD Qualitative Comparison](figures/sod_qual_comp.PNG)
 
-## SOC Qualitative Comparison
+## Salient Objects in Clutter(SOC) Qualitative Comparison
 ![SOC Qualitative Comparison](figures/soc_qual_comp.PNG)
 
-## COD Qualitative Comparison
+## Camouflaged Object Detection(COD) Qualitative Comparison
 ![COD Qualitative Comparison](figures/cod_qual_comp.PNG)
 
 ## Predicted maps of SOD, SOC and COD datasets
