@@ -1,5 +1,28 @@
-# BASNet
-Code for CVPR 2019 paper '[*BASNet: Boundary-Aware Salient Object Detection*](http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html) [code](https://github.com/NathanUA/BASNet)', [Xuebin Qin](https://webdocs.cs.ualberta.ca/~xuebin/), [Zichen Zhang](https://webdocs.cs.ualberta.ca/~zichen2/), [Chenyang Huang](https://chenyangh.com/), [Chao Gao](https://cgao3.github.io/), [Masood Dehghan](https://sites.google.com/view/masooddehghan) and [Martin Jagersand](https://webdocs.cs.ualberta.ca/~jag/).
+# BASNet (New Version May 2nd, 2021)
+
+'[Boundary-Aware Segmentation Network for
+Mobile and Web Applications](https://arxiv.org/pdf/2101.04704.pdf)', Xuebin Qin, Deng-Ping Fan, Chenyang Huang, Cyril Diagne, Zichen Zhang,
+Adria Cabeza Sant’Anna, Albert Suarez, Martin Jagersand, and Ling Shao.
+
+[SOD Results will come soon!]()
+[SOC Results will come soon!]()
+[COD Results](https://drive.google.com/file/d/12jijUPpdOe7k2O1YcLbkJHyXCJb3MRMN/view?usp=sharing)
+
+
+
+# BASNet (CVPR 2019)
+Code for CVPR 2019 paper '[*BASNet: Boundary-Aware Salient Object Detection*](http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html) [code](https://github.com/NathanUA/BASNet)', [Xuebin Qin](https://webdocs.cs.ualberta.ca/~xuebin/), [Zichen Zhang](https://webdocs.cs.ualberta.ca/~zichen2/), [Chenyang Huang](https://chenyangh.com/), [Chao Gao](https://cgao3.github.io/), [Masood Dehghan](https://sites.google.com/view/masooddehghan) and [Martin Jagersand](https://webdocs.cs.ualberta.ca/~jag/). 
+
+## Citation
+```
+@InProceedings{Qin_2019_CVPR,
+author = {Qin, Xuebin and Zhang, Zichen and Huang, Chenyang and Gao, Chao and Dehghan, Masood and Jagersand, Martin},
+title = {BASNet: Boundary-Aware Salient Object Detection},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2019}
+}
+```
 
 __Contact__: xuebin[at]ualberta[dot]ca
 
@@ -45,14 +68,3 @@ or ```python basnet_test.py``` respectively.
 ## Qualitative Comparison
 
 ![Qualitative Comparison](figures/qual.png)
-
-## Citation
-```
-@InProceedings{Qin_2019_CVPR,
-author = {Qin, Xuebin and Zhang, Zichen and Huang, Chenyang and Gao, Chao and Dehghan, Masood and Jagersand, Martin},
-title = {BASNet: Boundary-Aware Salient Object Detection},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2019}
-}
-```
