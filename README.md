@@ -4,27 +4,6 @@
 Mobile and Web Applications](https://arxiv.org/pdf/2101.04704.pdf)', Xuebin Qin, Deng-Ping Fan, Chenyang Huang, Cyril Diagne, Zichen Zhang,
 Adria Cabeza Sant’Anna, Albert Suarez, Martin Jagersand, and Ling Shao. 
 
-## Citation
-```
-@article{DBLP:journals/corr/abs-2101-04704,
-  author    = {Xuebin Qin and
-               Deng{-}Ping Fan and
-               Chenyang Huang and
-               Cyril Diagne and
-               Zichen Zhang and
-               Adri{\`{a}} Cabeza Sant'Anna and
-               Albert Su{\`{a}}rez and
-               Martin J{\"{a}}gersand and
-               Ling Shao},
-  title     = {Boundary-Aware Segmentation Network for Mobile and Web Applications},
-  journal   = {CoRR},
-  volume    = {abs/2101.04704},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2101.04704},
-  archivePrefix = {arXiv},
-}
-```
-
 ## Salient Object Detection(SOD) Qualitative Comparison
 ![SOD Qualitative Comparison](figures/sod_qual_comp.PNG)
 
@@ -100,3 +79,25 @@ or ```python basnet_test.py``` respectively.
 ## Qualitative Comparison
 
 ![Qualitative Comparison](figures/qual.png)
+
+
+## Citation
+```
+@article{DBLP:journals/corr/abs-2101-04704,
+  author    = {Xuebin Qin and
+               Deng{-}Ping Fan and
+               Chenyang Huang and
+               Cyril Diagne and
+               Zichen Zhang and
+               Adri{\`{a}} Cabeza Sant'Anna and
+               Albert Su{\`{a}}rez and
+               Martin J{\"{a}}gersand and
+               Ling Shao},
+  title     = {Boundary-Aware Segmentation Network for Mobile and Web Applications},
+  journal   = {CoRR},
+  volume    = {abs/2101.04704},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2101.04704},
+  archivePrefix = {arXiv},
+}
+```
