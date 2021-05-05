@@ -24,17 +24,6 @@ Adria Cabeza Sant’Anna, Albert Suarez, Martin Jagersand, and Ling Shao.
 # BASNet (CVPR 2019)
 Code for CVPR 2019 paper '[*BASNet: Boundary-Aware Salient Object Detection*](http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html) [code](https://github.com/NathanUA/BASNet)', [Xuebin Qin](https://webdocs.cs.ualberta.ca/~xuebin/), [Zichen Zhang](https://webdocs.cs.ualberta.ca/~zichen2/), [Chenyang Huang](https://chenyangh.com/), [Chao Gao](https://cgao3.github.io/), [Masood Dehghan](https://sites.google.com/view/masooddehghan) and [Martin Jagersand](https://webdocs.cs.ualberta.ca/~jag/). 
 
-## Citation
-```
-@InProceedings{Qin_2019_CVPR,
-author = {Qin, Xuebin and Zhang, Zichen and Huang, Chenyang and Gao, Chao and Dehghan, Masood and Jagersand, Martin},
-title = {BASNet: Boundary-Aware Salient Object Detection},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2019}
-}
-```
-
 __Contact__: xuebin[at]ualberta[dot]ca
 
 ## (2020-May-09) NEWS! Our new Salient Object Detection model (U^2-Net), which is just accepted by Pattern Recognition, is available now!
@@ -99,5 +88,16 @@ or ```python basnet_test.py``` respectively.
   year      = {2021},
   url       = {https://arxiv.org/abs/2101.04704},
   archivePrefix = {arXiv},
+}
+```
+
+## Citation
+```
+@InProceedings{Qin_2019_CVPR,
+author = {Qin, Xuebin and Zhang, Zichen and Huang, Chenyang and Gao, Chao and Dehghan, Masood and Jagersand, Martin},
+title = {BASNet: Boundary-Aware Salient Object Detection},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2019}
 }
 ```
