@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 from torchvision import models
-import torch.nn.functional as F
 
 def conv3x3(in_planes, out_planes, stride=1):
     """3x3 convolution with padding"""
@@ -179,15 +178,20 @@ class PredictModule(nn.Module):
         x = self.bridge(x)
 
         # Decoder and Side Outputs
-        side_outputs = [self.side_outputs[0](x)]
+        side_outputs = [self.side_outputs[0](x)] if self.training else []
 
         for idx, decoder_module in enumerate(self.decoder, start=1):
             x = torch.cat((x, encoder_outs[-idx]), dim=1)
             x = decoder_module(x)
-            sx = self.side_outputs[idx](x)
-            side_outputs.append(sx)
+            if self.training:
+                sx = self.side_outputs[idx](x)
+                side_outputs.append(sx)
+            else:
+                if idx == 6:
+                    sx = self.side_outputs[idx](x)
+                    side_outputs.append(sx)
             
-            if idx != 3: # not applying upsample for decoder stage 4d
+            if idx not in (3, 6): # not applying upsample for decoder stage 4d and # stage 1d
                 x = self.upsample2(x)
         
         return side_outputs
